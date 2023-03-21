@@ -21,7 +21,7 @@ class Rectangle {
 
 class Square extends Rectangle {
 	getPerimeter() {
-		return 4 * this._width;
+		return 2*(this._lenght + this._width)
 	}
 }
 
